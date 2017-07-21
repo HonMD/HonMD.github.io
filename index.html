@@ -3,37 +3,53 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>90's Aesthetic</title>
+		<!-- style tags and script tags can also go here -->
+		<!-- BOOSTRAP TAG -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- LOBSTER TAG -->
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link rel="stylesheet" href="index.css">
 	</head>
 
-	<body>
-		<h1>Hello World</h1>
-<img src="kek.jpg" width='300'/>
-
-		<p> My name is John</p>
-		<strong>Strong Hello</strong>
-		<em>Hello</em>
-
-		<div>
-		<em>&lt;em&gt;Hello&lt;/em&gt;</em>
+	<body style="background-color:silver;">
+		<h1>John's Totally Retro 90's GitHub Portfolio</h1>
+		<h2 style="float: right;">
+			<nav>
+			<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html" class="selected">About the Author</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</h2>
+		<a href="https://en.wikipedia.org/wiki/Kek_(mythology)"target="_blank"><img src="kek.jpg" width='300'></a>
+	
+		<!-- trying to insert an image inside container 1 using css file -->
+		<div class="container1"> 
+		<p class="container3">Behold- you have arrived at this website that looks like it came out of the 90's. Within this page you will find all the things I <s>learned</s> copied while at my coding bootcamp in Malaysia. NB: they're all just links to my github repositories, except for the "to do list" challenge cus it's a private fork and I don't wanna bother. Shoutouts to everybody this was "borrowed" from.</p>
+		</div>
+		<p class="container2"> <u> Things I did on Ruby (click the image to be redirected to my GitHub) </u> </p>
+		<div class="icon">
+			<p>Deaf Aunty</p>
+			<a href="https://github.com/HonMD/deaf_aunty.git"target="_blank"><img src="deafaunty.svg" width='80'/></a>
 		</div>
 
-		
-		<a href="https://www.google.com"target="_blank">Click here for the internet</a>
+		<div class="icon">
+			<p>Playground</p>
+			<a href="https://github.com/HonMD/ar_playground"target="_blank"><img src="playground.svg" width='80'/></a>
+		</div>
 
-		<p>Programming Languages</p>
+		<div class="icon">
+			<p>Student Schema</p>
+			<a href="https://github.com/HonMD/ar-student-schema"target="_blank"><img src="studentschema.svg" width='80'/></a>
+		</div>
+		<!-- i'm targeting this line "programming languages" by setting an id -->
 		<ul>
-			<li>Ruby</li>
-			<li>Javascript</li>
+		<strong>Programming Languages</strong>
+			<li>Ruby, currently deRailed</li>
+			<li>Javascript (coming soon)</li>
+			<li>HTML5... am i doing it right?</li>
 		</ul>
-
-		<ol type='a'>
-			How to make an order list?
-			<li>Write HTML</li>
-			<li>Pray</li>
-			<li>Love</li>
-			<li>ㅇㅅㅇ</li>
-			<li>🤥</li>
-		</ol>
 	</body>
 </html>
